@@ -1,0 +1,123 @@
+# Generic
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.log
+
+# OS files
+*.DS_Store
+ehthumbs.db
+Icon?
+~$*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+.secret
+secrets.yml
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+dist/
+build/
+.cache/
+.next/
+out/
+*.tgz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.venv/
+venv/
+ENV/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Java / JVM
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.class
+target/
+build/
+out/
+.gradle/
+.gradle-cache/
+!gradle-wrapper.jar
+.mvn/
+.settings/
+.classpath
+.project
+
+# Go
+bin/
+pkg/
+vendor/
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+log/
+tmp/
+.byebug_history
+
+# PHP
+vendor/
+composer.lock
+*.phpunit.result.cache
+
+# C / C++
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+build/
+cmake-build-*/
+
+# Rust
+/target/
+/**/*.rs.bk
+
+# Swift / Xcode
+build/
+DerivedData/
+*.xcworkspace
+*.xcuserdata
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Containers
+docker-compose.override.yml
