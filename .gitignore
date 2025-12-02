@@ -121,3 +121,4 @@ DerivedData/
 
 # Containers
 docker-compose.override.yml
+.artifacts
